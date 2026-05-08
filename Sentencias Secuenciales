@@ -1,0 +1,30 @@
+#Sentencias secuenciales
+suma=0
+print("=== Calculadora Promedio ===")
+
+
+nota1 = float(input(" ingresar nota 1: "))
+nota2 = float(input(" ingresar nota 2: "))
+nota3 = float(input(" ingresar nota 3: "))
+
+
+suma = nota1 + nota2 + nota3
+promedio = suma / 3
+
+
+print("El promedio es:", promedio)
+
+
+# Otra caso seria añadirle de forma manual porcentajes
+suma=0
+
+
+nota1 = float(input(" ingresar nota 1: "))
+nota2 = float(input(" ingresar nota 2: "))
+porcentaje1 = float(input(" ingresar porcentaje1: "))
+porcentaje2 = float(input(" ingresar porcentaje2: "))
+
+
+suma = (nota1 * porcentaje1) + (nota2 * porcentaje2)
+Promtotal= suma / 2
+print("El promedio es:", Promtotal)
